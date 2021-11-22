@@ -18,9 +18,9 @@ const App = () => {
       />
 
       <Book
-        author={books[0].author}
-        title={books[0].title}
-        description={books[0].description}
+        author={books[1].author}
+        title={books[1].title}
+        description={books[1].description}
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui ad
         aspernatur consectetur fuga omnis quisquam possimus commodi! Voluptatum
