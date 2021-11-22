@@ -1,0 +1,7 @@
+.bookWrapper {
+  padding: 1rem;
+  width: 300px;
+  border: 1px solid gold;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
