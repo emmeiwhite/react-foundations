@@ -1,7 +1,21 @@
 .bookWrapper {
   padding: 1rem;
   width: 300px;
-  border: 1px solid gold;
+  border: 1px solid rgb(250, 119, 79);
   border-radius: 5px;
   margin-bottom: 2rem;
+}
+
+.book-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: rgb(118, 250, 173);
+  padding: 2rem;
+  border-radius: 5px;
+  gap: 10px;
+}
+
+.book-list .bookWrapper {
+  width: auto;
+  margin-bottom: 0;
 }

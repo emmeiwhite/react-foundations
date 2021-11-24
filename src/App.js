@@ -27,6 +27,12 @@ const App = () => {
         earum, sequi voluptate in, aspernatur omnis consectetur exercitationem
         cupiditate harum inventore esse totam libero, porro laudantium!
       </Book>
+
+      <section className="book-list">
+        {books.map((book) => {
+          return <Book {...book} key={book.isbn} />;
+        })}
+      </section>
     </main>
   );
 };
